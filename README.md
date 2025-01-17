@@ -39,12 +39,12 @@ Enter the quantity of pizzas:
 ### **Sample Output:**  
 
 ```plaintext
-Enter the price per pizza: 9.99  
-Enter the quantity of pizzas: 3.6  
-Original total cost (float): 35.96  
-Truncated total cost (int): 35  
-Total cost with delivery (float): 40.99  
-Promotional ASCII character for the quantity: D  
+Enter the price per pizza: 12.99
+Enter the quantity of pizzas: 7
+Original total cost (float): 90.93
+Truncated total cost (int): 90
+Total cost with delivery (float): 95.99
+Promotional ASCII character for the quantity: Z
 ```
 
 ---
