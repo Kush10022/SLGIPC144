@@ -22,7 +22,7 @@ In the file `SLGsession3.c`, write a program that:
    - Print the final total (with delivery fee) formatted to two decimal places.  
 
 5. **Narrowing Conversion**:  
-   - Cast the quantity of pizzas ordered (as an integer) to a `char`. Display the corresponding ASCII character for fun (e.g., if quantity is 65, it corresponds to 'A').  
+   - Cast the truncated total cost of pizzas ordered (as an integer) to a `char`. Display the corresponding ASCII character for fun (e.g., if quantity is 65, it corresponds to 'A').  
 
 6. **Final Output**:  
    - Clearly display the original inputs, the truncated total cost, the total with delivery fee, and the promotional ASCII character.
