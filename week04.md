@@ -12,12 +12,12 @@ You are developing a program for a grocery store to calculate the total price of
 ### **Programming Task:**  
 In this lab, you will create a modular program that:  
 
-1. **Header File (`fruit_utils.h`):**  
+1. **Header File (`fruitUtils.h`):**  
    - Declare the following functions:  
      a. `float calculateTotal(float pricePerKg, float quantity);`  
      b. `void printReceipt(char fruitName, float pricePerKg, float quantity, float totalPrice);`  
 
-2. **Implementation File (`fruit_utils.c`):**  
+2. **Implementation File (`fruitUtils.c`):**  
    - Define the functions declared in `fruit_utils.h`:  
      a. **`calculateTotal`:** Multiplies `pricePerKg` and `quantity` to calculate the total price.  
      b. **`printReceipt`:** Prints a receipt with the fruit name's first charector, price per kilogram, quantity, and total price formatted as shown below.  
