@@ -15,16 +15,16 @@ In this lab, you will create a modular program that:
 1. **Header File (`fruit_utils.h`):**  
    - Declare the following functions:  
      a. `float calculateTotal(float pricePerKg, float quantity);`  
-     b. `void printReceipt(char fruitName[], float pricePerKg, float quantity, float totalPrice);`  
+     b. `void printReceipt(char fruitName, float pricePerKg, float quantity, float totalPrice);`  
 
 2. **Implementation File (`fruit_utils.c`):**  
    - Define the functions declared in `fruit_utils.h`:  
      a. **`calculateTotal`:** Multiplies `pricePerKg` and `quantity` to calculate the total price.  
-     b. **`printReceipt`:** Prints a receipt with the fruit name, price per kilogram, quantity, and total price formatted as shown below.  
+     b. **`printReceipt`:** Prints a receipt with the fruit name's first charector, price per kilogram, quantity, and total price formatted as shown below.  
 
 3. **Main File (`main.c`):**  
    - Prompt the user for:  
-     a. The name of the fruit (e.g., "Apples").  
+     a. The name of the fruit's first charector (e.g., "A").  
      b. The price per kilogram (e.g., `3.25`).  
      c. The quantity in kilograms (e.g., `5.5`).  
    - Call `calculateTotal` to compute the total price.  
@@ -38,7 +38,7 @@ In this lab, you will create a modular program that:
 
 ### **Prompt Example:**  
 ```plaintext
-Enter the name of the fruit: Mangoes  
+Enter the name of the fruit: M
 Enter the price per kilogram: 4.25  
 Enter the quantity in kilograms: 3.5  
 ```
