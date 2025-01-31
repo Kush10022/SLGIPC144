@@ -40,13 +40,13 @@ Total Payable = Loan Amount + (Loan Amount * Interest Rate)
 
 You will create a **modular C program (`lab4e.c`)** that follows these steps:  
 
-### **1. Header File (`loan_utils.h`)**  
+### **1. Header File (`loanUtils.h`)**  
 - Declare the following functions:
   - `int isEligible(int salary, int creditScore, float loanAmount);`  
   - `float getInterestRate(int creditScore, float loanAmount);`  
   - `void displayLoanDetails(int salary, int creditScore, float loanAmount, int eligible, float interestRate);`  
 
-### **2. Implementation File (`loan_utils.c`)**  
+### **2. Implementation File (`loanUtils.c`)**  
 - Define the functions declared in `loan_utils.h`:  
   - **`isEligible`** → Checks if the applicant meets the **eligibility criteria** and returns `1` (eligible) or `0` (not eligible).  
   - **`getInterestRate`** → Determines the **interest rate** based on **loan amount** and **credit score**.  
