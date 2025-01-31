@@ -30,9 +30,9 @@ If the loan is **approved**, the interest rate is assigned based on the **credit
 | **650 - 699**   | **8% interest**       | **7.5% interest**   |
 
 **Formula to calculate total repayment amount:**  
-\[
+
 Total Payable = Loan Amount + (Loan Amount * Interest Rate)
-\]
+
 
 ---
 
