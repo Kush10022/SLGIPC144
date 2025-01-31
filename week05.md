@@ -82,7 +82,7 @@ Enter the loan amount requested: 45000
 ```plaintext
 Loan Approved!
 Interest Rate: 6.50%
-Total Payable Amount: $48,925.00
+Total Payable Amount: $47925.00
 ```
 
 ---
