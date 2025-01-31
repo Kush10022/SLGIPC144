@@ -31,7 +31,7 @@ If the loan is **approved**, the interest rate is assigned based on the **credit
 
 **Formula to calculate total repayment amount:**  
 
-Total Payable = Loan Amount + (Loan Amount * Interest Rate)
+Total Payable = Loan Amount + (Loan Amount * (Interest Rate/100))
 
 
 ---
