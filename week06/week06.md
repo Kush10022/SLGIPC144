@@ -64,7 +64,7 @@ Your program should be split into the following files:
 5. **Exit the Program Using Flags:**  
    - Do **not** use `break` or `continue` to exit the loops.  
    - Use a **flag variable** to control when the program should exit the loop.  
-   - The program should exit when the user selects **Option 4 (Exit)**, and a summary of total deposits and withdrawals should be displayed.
+   - The program should exit when the user selects **Option 4 (Exit)**, and a summary of total balance
 
 ---
 
@@ -104,7 +104,7 @@ Your program should be split into the following files:
    - Initialize the account balance to `$1000`.  
    - Use a **while loop** controlled by a **flag variable** to display the menu until the user chooses to exit.  
    - Based on user input, call the appropriate function.  
-   - When the user exits, display a summary of the total number of deposits and withdrawals.
+   - When the user exits, display a summary of total balance.
 
 ---
 
@@ -131,33 +131,72 @@ Select an option:
 Welcome to Simple Bank!
 Your initial balance is $1000.00.
 
-1. Deposit Money  
-2. Withdraw Money  
-3. Check Balance  
-4. Exit  
+1. Deposit Money
+2. Withdraw Money
+3. Check Balance
+4. Exit
 
-Select an option: 1  
-How many deposits would you like to make? 3  
+Select an option: `1`
+How many deposits would you like to make? -1
 
-Enter deposit amount 1: 200  
-Deposit successful! New balance: $1200.00  
+1. Deposit Money
+2. Withdraw Money
+3. Check Balance
+4. Exit
 
-Enter deposit amount 2: 150  
-Deposit successful! New balance: $1350.00  
+Select an option: 1
+How many deposits would you like to make? 0
 
-Enter deposit amount 3: -50  
-Error: Deposit amount must be positive.  
-Enter deposit amount 3: 100  
-Deposit successful! New balance: $1450.00  
+1. Deposit Money
+2. Withdraw Money
+3. Check Balance
+4. Exit
 
-1. Deposit Money  
-2. Withdraw Money  
-3. Check Balance  
-4. Exit  
+Select an option: 1
+How many deposits would you like to make? 2
+Enter deposit amount 1: -20
+Error: Deposit amount must be positive.
+Enter deposit amount 1: 100
+Deposit successful! New balance: $1100.00
+Enter deposit amount 2: 222
+Deposit successful! New balance: $1322.00
 
-Select an option: 4  
+1. Deposit Money
+2. Withdraw Money
+3. Check Balance
+4. Exit
+
+Select an option: 2
+Enter withdrawal amount: 2000
+Error: Insufficient funds. Your balance is $1322.00.
+Enter withdrawal amount: 122
+Withdrawal successful! New balance: $1200.00
+
+1. Deposit Money
+2. Withdraw Money
+3. Check Balance
+4. Exit
+
+Select an option: 3
+Your current balance is: $1200.00
+
+1. Deposit Money
+2. Withdraw Money
+3. Check Balance
+4. Exit
+
+Select an option: 0
+Invalid option. Please select between 1 and 4.
+
+1. Deposit Money
+2. Withdraw Money
+3. Check Balance
+4. Exit
+
+Select an option: 4
+
 Thank you for banking with us!
-Total Deposits: 3 | Total Withdrawals: 0
+Your current balance is: $1200.00
 ```
 
 ---
