@@ -136,7 +136,7 @@ Your initial balance is $1000.00.
 3. Check Balance
 4. Exit
 
-Select an option: `1`
+Select an option: 1
 How many deposits would you like to make? -1
 
 1. Deposit Money
