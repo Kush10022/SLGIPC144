@@ -1,14 +1,13 @@
-### **Lab 5: Modular Banking Application Using For, While, Do-While Loops with Flags in C**  
+### **Modular Banking Application Using For, While, Do-While Loops with Flags in C**  
 
 ---
 
-### **Lab Objectives:**  
-By the end of this lab, you will:  
+### **Objectives:**  
+By the end of this activity, you will:  
 1. Implement **for**, **while**, and **do-while** loops in a modular C program.  
 2. Use **flags** to control program flow instead of using `break` or `continue`.  
 3. Structure your code using **multiple files** (header file, implementation file, and main file).  
 4. Use **functions** to handle deposits, withdrawals, and balance checking.  
-5. Practice passing variables by **reference** to update values within functions.
 
 ---
 
@@ -34,7 +33,7 @@ Your program should be split into the following files:
    - This file will contain the **definitions** of all the functions declared in the header file.
 
 3. **Main File (`main.c`)**  
-   - This file will handle **user interaction** and call functions defined in `bank_utils.c`.
+   - This file will handle **user interaction** and call functions defined in `bankUtils.c`.
 
 ---
 
@@ -73,17 +72,17 @@ Your program should be split into the following files:
 
 1. **Function Declarations (in `bankUtils.h`):**  
    - `void displayMenu();`  
-   - `void depositMoney(float *balance, int *totalDeposits);`  
-   - `void withdrawMoney(float *balance, int *totalWithdrawals);`  
+   - `void depositMoney(float balance, int totalDeposits);`  
+   - `void withdrawMoney(float balance, int totalWithdrawals);`  
    - `void checkBalance(float balance);`
 
 2. **Function Descriptions:**  
    - **`displayMenu()`**: Displays the banking options.  
-   - **`depositMoney(float *balance, int *totalDeposits)`**:  
+   - **`depositMoney(float balance, int totalDeposits)`**:  
      - Handles multiple deposits using a **for loop**.  
      - Validates each deposit using a **do-while loop** to ensure the amount is positive.  
      - Updates the balance and counts the total number of deposits.
-   - **`withdrawMoney(float *balance, int *totalWithdrawals)`**:  
+   - **`withdrawMoney(float balance, int totalWithdrawals)`**:  
      - Ensures withdrawals are **positive** and do not **exceed the balance** using a **while loop**.  
      - Updates the balance and counts the total number of withdrawals.
    - **`checkBalance(float balance)`**: Displays the current balance.
