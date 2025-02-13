@@ -72,19 +72,19 @@ Your program should be split into the following files:
 
 1. **Function Declarations (in `bankUtils.h`):**  
    - `void displayMenu();`  
-   - `void depositMoney(float balance, int totalDeposits);`  
-   - `void withdrawMoney(float balance, int totalWithdrawals);`  
+   - `float depositMoney(float balance);`  
+   - `float withdrawMoney(float balance);`  
    - `void checkBalance(float balance);`
 
 2. **Function Descriptions:**  
    - **`displayMenu()`**: Displays the banking options.  
-   - **`depositMoney(float balance, int totalDeposits)`**:  
+   - **`depositMoney(float balance)`**:  
      - Handles multiple deposits using a **for loop**.  
      - Validates each deposit using a **do-while loop** to ensure the amount is positive.  
-     - Updates the balance and counts the total number of deposits.
-   - **`withdrawMoney(float balance, int totalWithdrawals)`**:  
+     - Updates the balance.
+   - **`withdrawMoney(float balance)`**:  
      - Ensures withdrawals are **positive** and do not **exceed the balance** using a **while loop**.  
-     - Updates the balance and counts the total number of withdrawals.
+     - Updates the balance.
    - **`checkBalance(float balance)`**: Displays the current balance.
 
 ---
