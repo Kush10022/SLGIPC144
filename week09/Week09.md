@@ -7,8 +7,6 @@ You are developing a **Library Search System** that helps users:
 2. **Search for a book by title** (case-sensitive).  
 3. **Exit the system** when finished.  
 
-Unlike a full-fledged library system, this program does **not** allow adding or removing books. Instead, it works with a **preloaded list of books**.
-
 ---
 
 ## **📌 Program Requirements**  
@@ -32,7 +30,7 @@ Create a `struct Book` to store:
 📌 `int searchBook(Book books[], int count, char title[]);`  
 - Allows users to enter a book title to **search**.  
 - The search should be **case-sensitive** (users must enter the exact title).  
-- Uses **`strcmp()`** to compare book titles.  
+- Uses **`strcmp()`** to compare book titles. Use it like this (strcmp("booktitle", "title");)  
 - Returns the **index of the book** if found, otherwise `-1`.  
 
 ---
