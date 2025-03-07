@@ -18,6 +18,14 @@ Create a `struct Book` to store:
 
 ### **2. Use an Array of Structs**  
 - The program must store **5 predefined books** in an **array of structs**.  
+- Here is the list of all the book copy all and put it in the main.c file: 
+-{
+        {"The Great Gatsby", "F. Scott Fitzgerald"},
+        {"1984", "George Orwell"},
+        {"To Kill a Mockingbird", "Harper Lee"},
+        {"Moby Dick", "Herman Melville"},
+        {"Pride and Prejudice", "Jane Austen"}
+    }
 - Users will interact with this predefined list.
 
 ### **3. Implement the Following Functions**  
